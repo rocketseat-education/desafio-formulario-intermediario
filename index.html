@@ -24,7 +24,7 @@
   </header>
 
   <main>
-    <div>
+    <div class="container">
       <form action="">
         <fieldset>
           <legend>Informações Pessoais</legend>
@@ -66,20 +66,98 @@
         </fieldset>
 
 
-        <!-- <fieldset>
+        <fieldset>
           <legend>Informações do Mentor</legend>
-        </fieldset> -->
 
+          <hr />
+
+          <div class="input-wrapper">
+            <label for="text">Nome do seu mentor
+              <span>(só o primeiro nome)</span>
+            </label>
+
+            <input id="email" type="email">
+          </div>
+
+        </fieldset>
+
+        <fieldset>
+          <legend>Seus horários disponíveis</legend>
+
+          <hr />
+        </fieldset>
+
+        <legend class="legend-group">Primeira Mentoria</legend>
+
+        <div class="input-group">
+
+          <div class="input-wrapper date">
+            <label for="begin-date">
+              Data <span>(DD/MM/AAAA)</span>
+            </label>
+
+            <input id="begin-date" type="date">
+          </div>
+
+          <div class="input-wrapper">
+            <label for="time-start">
+              Das
+            </label>
+
+            <input id="time-start" type="time">
+          </div>
+          <div class="input-wrapper">
+
+            <label for="time-start">
+              Até
+            </label>
+
+            <input id="time-start" type="time">
+          </div>
+        </div>
+
+        <!-- SEGUNDA MENTORIA -->
+
+        <legend class="legend-group">Segunda Mentoria</legend>
+
+        <div class="input-group">
+
+          <div class="input-wrapper date">
+            <label for="begin-date">
+              Data <span>(DD/MM/AAAA)</span>
+            </label>
+
+            <input id="begin-date" type="date">
+          </div>
+
+          <div class="input-wrapper">
+            <label for="time-start">
+              Das
+            </label>
+
+            <input id="time-start" type="time">
+          </div>
+          <div class="input-wrapper">
+
+            <label for="time-start">
+              Até
+            </label>
+
+            <input id="time-start" type="time">
+          </div>
+        </div>
 
       </form>
     </div>
 
-    <div>
+    <footer>
       <button>
         SALVAR
       </button>
-    </div>
+    </footer>
+
   </main>
+
 </body>
 
 </html>
